@@ -2,8 +2,8 @@
 
 ### How to use the Sample?
 
-* All the below sample uses the [CliFx ](https://github.com/Tyrrrz/CliFx)based command to use and run as it is.
-
+* All the below sample may uses the [CliFx ](https://github.com/Tyrrrz/CliFx)/xUnit Test based command to use and run as it is.
+* 
 The full sample on how it uses the extension is given below
 
 ```csharp
