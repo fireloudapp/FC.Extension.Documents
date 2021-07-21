@@ -1,17 +1,17 @@
 ---
 description: >-
-  Encrypt a string as a extension method. It uses RSA Standard algorithm to do
+  Decrypt a string as a extension method. It uses RSA Standard algorithm to do
   this.
 ---
 
-# Encrypt
+# Decrypt
 
-## Method: Encrypt
+## Method : Decrypt 
 
-```csharp
-[Command("Enc")]
-public class EncryptExtension_Command : ICommand
-{        
+```text
+[Command("Dec")]
+public class DecryptExtension_Command : ICommand
+{
     [CommandOption("enc", 'e', Description = "Value that has to be encrypt")]
     public string Value { get; set; }
 
@@ -21,7 +21,9 @@ public class EncryptExtension_Command : ICommand
     public ValueTask ExecuteAsync(IConsole console)
     {
         string encryptedValue = Value.Encrypt(Key);
+        string decryptedValue = encryptedValue.Decrypt(Key);
         console.Output.WriteLine($"Plan Text : {Value} Encrypted Value : {encryptedValue} Key : {Key}");
+        console.Output.WriteLine($"Encrypted Text : {encryptedValue} Decrypted Value : {decryptedValue} Key : {Key}");
         return default;
     }
 }
