@@ -7,3 +7,8 @@
   * [Encrypt](fc.extension.string/encrypt-or-decrypt.md)
   * [Decrypt](fc.extension.string/decrypt.md)
 
+## SQL
+
+* [SQL Extension](sql/sql-extension.md)
+* [PostgreSQL Extension](sql/postgresql-extension.md)
+
