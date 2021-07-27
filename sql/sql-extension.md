@@ -27,3 +27,22 @@ public class Person
 }
 ```
 
+### A Main Method which invokes all the command
+
+```csharp
+public static class Program
+{
+    public static async Task<int> Main() =>
+        await new CliApplicationBuilder()
+            .AddCommandsFromThisAssembly()
+            .Build()
+            .RunAsync();
+}
+```
+
+{% hint style="info" %}
+All source code can be found in [Github Repository](https://github.com/fireloudapp/FC.Extension.SQL)
+{% endhint %}
+
+
+
