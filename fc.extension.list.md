@@ -56,6 +56,6 @@ void ActionMethod(Item item)
 {% hint style="info" %}
 Full Source code available in the Github.
 
-IEnumerable Extension
+[IEnumerable Extension](https://github.com/fireloudapp/FC.Extensions/blob/main/FC.Core.Extension/ListHandlers/IEnumerableExtensions.cs)
 {% endhint %}
 
