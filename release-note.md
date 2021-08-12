@@ -9,14 +9,9 @@ description: Intro to FC Extension
 ### Added
 
 * Extension method of Encryption & Decryption
+* Age Extension Added
 * 
-### Fixes
-
-* NA
-
-### Changes
-
-* NA
+### 
 
 ## 
 
