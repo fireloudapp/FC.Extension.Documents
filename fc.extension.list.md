@@ -4,6 +4,12 @@
 
 The below method which iterates each item in the list and performs the provided action through "ActionMethod"
 
+### Package
+
+```bash
+Install-Package FC.Core.Extension -Version 5.0.1
+```
+
 ### Sample Code
 
 ```bash
@@ -47,5 +53,9 @@ void ActionMethod(Item item)
 
 ![Output of IEnumerable ForEach Execution](.gitbook/assets/image.png)
 
+{% hint style="info" %}
+Full Source code available in the Github.
 
+IEnumerable Extension
+{% endhint %}
 
