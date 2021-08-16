@@ -51,7 +51,7 @@ void ActionMethod(Item item)
 
 ### Output
 
-![Output of IEnumerable ForEach Execution](.gitbook/assets/image.png)
+![Output of IEnumerable ForEach Execution](../.gitbook/assets/image.png)
 
 {% hint style="info" %}
 Full Source code available in the Github.
