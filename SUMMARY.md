@@ -10,6 +10,7 @@
 * [FC.Extension.String](fc.extension.string/README.md)
   * [Encrypt](fc.extension.string/encrypt-or-decrypt.md)
   * [Decrypt](fc.extension.string/decrypt.md)
+  * [Truncate a String](fc.extension.string/truncate-a-string.md)
 
 ## SQL
 
